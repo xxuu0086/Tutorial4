@@ -1,6 +1,10 @@
 # Tutorial4
 
+<<<<<<< HEAD
 # I am creating a conflict
+=======
+# This is New
+
 
 <<<<<<< HEAD
 =======
