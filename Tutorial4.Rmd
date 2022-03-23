@@ -5,3 +5,18 @@ output:
 keep_md: true
 date: '2022-03-23'
 ---
+```{r}
+library(tidyverse)
+```
+# Learing to reference figures
+
+```{r , Figref, fig.cap = "Random noise figure"}
+x = seq(1:100)
+y = rnorm(100)
+dat = data.frame(x,y)
+ggplot(dat, aes(x = x, y = y)) +
+  geom_line()
+
+```
+
+This is to refer \@ref(fig:Figref)
